@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e618c838a3bca5042b0459cc8f627230, type: 3}
+  m_Name: New PlayerSkillInventory
+  m_EditorClassIdentifier: 
+  Save_Player: {fileID: 11400000, guid: cc945d2167ff5574f9f4852a928a062b, type: 2}
+  Save_UiLevelData_Components:
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 1632260a26b8cad46bbb53026b4b32ea, type: 2}
+    position: {x: 0, y: 0}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 97bded3fc7c806a40bb94ded7afabcea, type: 2}
+    position: {x: 1, y: 0}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 1632260a26b8cad46bbb53026b4b32ea, type: 2}
+    position: {x: 2, y: 0}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: d6e8a992ea0308c41a20775b7926446f, type: 2}
+    position: {x: 0, y: 1}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 1, y: 1}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 2, y: 1}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 97bded3fc7c806a40bb94ded7afabcea, type: 2}
+    position: {x: 0, y: 2}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 1, y: 2}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 2, y: 2}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 97bded3fc7c806a40bb94ded7afabcea, type: 2}
+    position: {x: 0, y: 3}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 97bded3fc7c806a40bb94ded7afabcea, type: 2}
+    position: {x: 1, y: 3}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 2, y: 3}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: a45784c0df5de6647b5c4eab30e3997d, type: 2}
+    position: {x: 0, y: 4}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 1632260a26b8cad46bbb53026b4b32ea, type: 2}
+    position: {x: 1, y: 4}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: d6e8a992ea0308c41a20775b7926446f, type: 2}
+    position: {x: 2, y: 4}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 0, y: 5}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: a45784c0df5de6647b5c4eab30e3997d, type: 2}
+    position: {x: 1, y: 5}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 97bded3fc7c806a40bb94ded7afabcea, type: 2}
+    position: {x: 2, y: 5}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: a45784c0df5de6647b5c4eab30e3997d, type: 2}
+    position: {x: 0, y: 6}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 1, y: 6}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 2, y: 6}
+  - isHere: 0
+    canMove: 1
+    level: {fileID: 11400000, guid: d6e8a992ea0308c41a20775b7926446f, type: 2}
+    position: {x: 0, y: 7}
+  - isHere: 0
+    canMove: 1
+    level: {fileID: 11400000, guid: 1632260a26b8cad46bbb53026b4b32ea, type: 2}
+    position: {x: 1, y: 7}
+  - isHere: 0
+    canMove: 1
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 2, y: 7}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 97bded3fc7c806a40bb94ded7afabcea, type: 2}
+    position: {x: 0, y: 8}
+  - isHere: 1
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 1, y: 8}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 2, y: 8}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: d6e8a992ea0308c41a20775b7926446f, type: 2}
+    position: {x: 0, y: 9}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 97bded3fc7c806a40bb94ded7afabcea, type: 2}
+    position: {x: 1, y: 9}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: a45784c0df5de6647b5c4eab30e3997d, type: 2}
+    position: {x: 2, y: 9}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: 1632260a26b8cad46bbb53026b4b32ea, type: 2}
+    position: {x: 0, y: 10}
+  - isHere: 1
+    canMove: 0
+    level: {fileID: 11400000, guid: 1632260a26b8cad46bbb53026b4b32ea, type: 2}
+    position: {x: 1, y: 10}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: d6e8a992ea0308c41a20775b7926446f, type: 2}
+    position: {x: 2, y: 10}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 0, y: 11}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 1, y: 11}
+  - isHere: 0
+    canMove: 0
+    level: {fileID: 11400000, guid: e61543b14bd7c79468983cee96bb75ab, type: 2}
+    position: {x: 2, y: 11}
+  Save_PlayerPosition: {x: 2, y: 9}
+  Save_PlayerSkillsBag:
+  - {fileID: 11400000, guid: 3ed7462f5049d6244a1df803ecb32ca3, type: 2}
+  - {fileID: 11400000, guid: 65e68cbf6cddcff4dac49d80584dc14b, type: 2}
+  Save_Seed: 2147483647

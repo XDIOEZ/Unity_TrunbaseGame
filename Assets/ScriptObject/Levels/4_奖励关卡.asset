@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3e53c4656869a48a58c3d1a592975d, type: 3}
+  m_Name: "4_\u5956\u52B1\u5173\u5361"
+  m_EditorClassIdentifier: 
+  id: 4
+  Level_sprite: {fileID: 4180819429606014551, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+  level_Name: "\u5956\u52B1\u5173\u5361"
+  level_Description: 
+  Level_Loot: {fileID: 11400000, guid: 773de07da1278e64881935bee1b86644, type: 2}
+  Level_Battlecharacter:
+  - {fileID: 11400000, guid: 990604962f291714ebdfa9578cc90b72, type: 2}
+  Level_useSkillList: 000000000100000001000000
