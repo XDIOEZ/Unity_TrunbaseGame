@@ -4,9 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-
+/// <summary>
+/// 提供给map的插槽level的UI显示
+/// </summary>
 public class UI_Level : MonoBehaviour
 {
+    #region 旧版成员变量
     public UI_levelData _data;
     public bool IsHere
     {
@@ -37,10 +40,10 @@ public class UI_Level : MonoBehaviour
         get => _data.position;
         set => _data.position = value;
     }
-
     public Button button; // 按钮组件
     public Image UI_Level_image; // 用于高亮显示的Image组件
-
+    #endregion
+    #region 旧版成员方法
     void Start()
     {
         // 获取按钮组件
@@ -100,6 +103,7 @@ public class UI_Level : MonoBehaviour
             }
         }
     }
+    #endregion
     #region 外部调用接口
     public void SetCanMove(bool canMove)  // 允许外部设置 CanMove 属性
     {
@@ -115,5 +119,12 @@ public class UI_Level : MonoBehaviour
             UpdateHighlight();
         }
     }
+    #endregion
+    #region 新版成员变量
+    string levelName;//关卡的对应名字的唯一标识
+    public Level level_2;//只读
+    int x;//所处地图上的横轴坐标
+    int y;//所处地图上的纵轴坐标
+    bool _canMove;//地块是否可移动
     #endregion
 }

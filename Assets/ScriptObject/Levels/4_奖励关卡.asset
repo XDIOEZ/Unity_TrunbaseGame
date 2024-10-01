@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "4_\u5956\u52B1\u5173\u5361"
   m_EditorClassIdentifier: 
   id: 4
-  Level_sprite: {fileID: 4180819429606014551, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+  Level_sprite: {fileID: 21300000, guid: f26fa8880b3aeef4b8516c82dc12f2a5, type: 3}
   level_Name: "\u5956\u52B1\u5173\u5361"
   level_Description: 
   Level_Loot: {fileID: 11400000, guid: 773de07da1278e64881935bee1b86644, type: 2}

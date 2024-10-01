@@ -14,13 +14,23 @@ public class Map : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            //DontDestroyOnLoad(gameObject); // 如果需要在场景之间保留单例实例
+           
         }
         else
         {
             Destroy(gameObject); // 如果单例已经存在，则销毁多余的实例
         }
     }
+
+    int seed;//地图的谁技术种子
+
+    public List<UI_Level> _LevelAtMap;//UI关卡
+    public List<string> ui_LevelName;//UI关卡名字的排列
+
+    //使用一维数组方便序列化
+    int width; //地图宽度
+    int height; //地图高度
+
 
     // 地图宽度和高度
     private const int MapWidth = 3;

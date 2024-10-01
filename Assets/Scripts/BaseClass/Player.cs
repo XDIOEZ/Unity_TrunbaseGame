@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Player : Character
 {
-    
+    Vector2Int playerPosition;//玩家在地图上的位置 
+    int movePoint;//移动点，决定玩家在地图上是否可以动
+
     protected override void Start()
     {
         // base.Start(); // 取消直接调用基类的 Start() 方法
