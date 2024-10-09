@@ -6,33 +6,33 @@ using UnityEngine.UI;
 
 public class UI_BalletManagers : MonoBehaviour
 {
-   // public static UIManager Instance;
-
     public TextMeshProUGUI nameText;
-    public TextMeshProUGUI LevelText;
     public TextMeshProUGUI HpText;
     public TextMeshProUGUI DefenseText;
     public TextMeshProUGUI AttackText;
     public Slider hpSlider;
+    public Entity entity;
 
-
-    
-    // Start is called before the first frame update
-    public void UpdateHud(Character character)
+    void Start()
     {
-        if (character == null)
-        {
-            //Debug.Log("Character is null");
-            return;
-        }
-        nameText.text = character.CharacterName;
-        LevelText.text = "Level: " + character.Level.ToString();
-        HpText.text = "HP: " + character.Hp.ToString();
-        DefenseText.text = "Defense: " + character.Defense.ToString();
-        AttackText.text = "Attack: " + character.Attack.ToString();
+       
+    }
 
-        hpSlider.maxValue = character.characterData.maxHp;
-        hpSlider.value = character.Hp;
+    void Update()
+    {
+        UpdateHud(entity);
+    }
+    // Start is called before the first frame update
+    public void UpdateHud(Entity entity)
+    {
+       
+        nameText.text = entity.baseData.name;
+        HpText.text = "HP: " + entity.baseData.hp.ToString();
+        DefenseText.text = "Defense: " + entity.baseData.defense.ToString();
+        AttackText.text = "Attack: " + entity.baseData.attack.ToString();
+
+        hpSlider.maxValue = entity.baseData.Max_hp;
+        hpSlider.value = entity.baseData.hp;
     }
 }
 

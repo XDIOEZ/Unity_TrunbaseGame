@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 1
   lootName: "\u653B\u51FB\u548C\u9632\u5FA1"
   skills:
-  - {fileID: 11400000, guid: 3ed7462f5049d6244a1df803ecb32ca3, type: 2}
+  - {fileID: 11400000, guid: ecabae03edc23d943a1a640b26f829a4, type: 2}
   - {fileID: 11400000, guid: 65e68cbf6cddcff4dac49d80584dc14b, type: 2}
   maxClaimableTimes: 1

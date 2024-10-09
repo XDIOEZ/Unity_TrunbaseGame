@@ -2,32 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeCamera : MonoBehaviour
+public class ChangeCamera : Singleton<ChangeCamera>
 {
-   //创建单例模式
-    public static ChangeCamera instance;
-    void Awake()
+
+    void Start()
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        EventCenter.Instacne.AddEventListener("确认角色基础设定", ToMap);
     }
-    public void ChangeCameraToMap()
+    public void ToMap()
     {
         Camera.main.transform.position = new Vector3(0, 10, -10);
     }
 
-    public void ChangeCameraToGetSkill()
+    public void ToGetSkill()
     {
         Camera.main.transform.position = new Vector3(0, -10, -10);
     }
 
-    public void ChangeCameraToMainPlane()
+    public void ToMainPlane()
     {
         Camera.main.transform.position = new Vector3(0, 20, -10);
     }

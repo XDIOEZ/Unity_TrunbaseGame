@@ -67,17 +67,13 @@ public class GameManager : MonoBehaviour
     {
         UseSkillManager.Instance.InstantiationSkillButton(player);
         dialogText.text = enemy.CharacterName + " showTime!!!";
-        enemyHUD.UpdateHud(enemy);
-        playerHUD.UpdateHud(player);
         CurrentUI_level= DialogueManager.Instance.ui_Level;
         yield return new WaitForSeconds(0f);
         gameState = GameState.PlayerTurn;
     }
     private void Update()
     {
-        // 更新玩家和敌人的UI显示
-        enemyHUD.UpdateHud(enemy);
-        playerHUD.UpdateHud(player);
+      
 
         // 同步UI显示, 显示回合数和回合名称, 显示玩家和敌人血量
         if (player == null || enemy == null)
@@ -199,7 +195,7 @@ public class GameManager : MonoBehaviour
     // 处理战斗失败后的事件
     private void PlayerLose()
     {
-        ChangeCamera.instance.ChangeCameraToMap();
+        ChangeCamera.Instance.ToMap();
         gameState = GameState.Start;
     }
 #endregion

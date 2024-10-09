@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01958235bb03e4e4b81d9167f3332156, type: 3}
+  m_Name: "\u53F2\u83B1\u59C6"
+  m_EditorClassIdentifier: 
+  entityBaseData:
+    name: "\u53F2\u83B1\u59C6"
+    _id: 1
+    Max_hp: 12
+    hp: 12
+    Max_mp: 12
+    mp: 12
+    Max_ap: 11
+    ap: 1
+    Max_defense: 12
+    defense: 12
+    Max_mr: 1
+    mr: 1
+    attack: 12
+    inventory: {fileID: 11400000, guid: d0085992f7584194eb1b78540e93eee8, type: 2}
+    loot: {fileID: 11400000, guid: ba13a294eb8735043b28eeead57a4137, type: 2}
